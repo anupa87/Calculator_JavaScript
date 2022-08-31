@@ -6,7 +6,7 @@
 
 body {
   background-color: black;
-  padding: 3rem;
+  padding: 5rem;
   align-content: center;
   text-align: center;
   color: white;
@@ -14,18 +14,23 @@ body {
 }
 
 #container {
+  display: flex;
+  flex-direction: row;
+}
+
+#percentCalculator,
+#bmiCalculator {
+  background-color: tomato;
   margin: 0 auto;
   padding: 2rem;
-  max-width: fit-content;
-  max-height: fit-content;
-  background-color: tomato;
+  width: 25vw;
   border-radius: 3px;
 }
 
 h1,
 p,
 form,
-h3 {
+h2 {
   padding-bottom: 3rem;
 }
 
@@ -35,14 +40,14 @@ form input {
   border-radius: 5px;
 }
 
-#submit {
-    background-color: yellowgreen;
+.submit {
+  background-color: yellowgreen;
 }
 
-h3 {
-    background-color: yellowgreen;
-    color: #333;
-    border-radius: 5px;
-    text-align: center;
-    padding: 1rem;
+h2 {
+  background-color: yellowgreen;
+  color: #333;
+  border-radius: 5px;
+  text-align: center;
+  padding: 1rem;
 }

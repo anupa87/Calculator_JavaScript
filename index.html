@@ -9,22 +9,42 @@
   </head>
   <body>
     <div id="container">
-      <h1>Percentage Calculator</h1>
-      <p>X is what percentage of Y?</p>
-      <form id="xIsWhatPercentOfY">
-        <input
-          type="text"
-          id="numField1"
-          placeholder="Enter a number (X)"
-        /><br /><br />
-        <input
-          type="text"
-          id="numField2"
-          placeholder="Enter a number (Y)"
-        /><br /><br />
-        <input type="submit" value="Calculate" id="submit" />
-      </form>
-      <h3 id="resultField">Result: 0%</h3>
+      <div id="percentCalculator">
+        <h1>Percentage Calculator</h1>
+        <p>X is what percentage of Y?</p>
+        <form id="xIsWhatPercentOfY">
+          <input
+            type="text"
+            id="numField1"
+            placeholder="Enter a number (X)"
+          /><br /><br />
+          <input
+            type="text"
+            id="numField2"
+            placeholder="Enter a number (Y)"
+          /><br /><br />
+          <input type="submit" value="Calculate" class="submit" />
+        </form>
+        <h2 id="resultField">Result: 0%</h2>
+      </div>
+      <div id="bmiCalculator">
+        <h1>BMI Calculator</h1>
+        <p>Is your weight normal for your height?</p>
+        <form id="bmiForm">
+          <input
+            type="text"
+            id="wtField"
+            placeholder="Enter your weight in kg"
+          /><br /><br />
+          <input
+            type="text"
+            id="htField"
+            placeholder="Enter your height in cm"
+          /><br /><br />
+          <input type="submit" value="Calculate" class="submit" />
+        </form>
+        <h2 id="bmiResult">Result: 0 kg/m2</h2>
+      </div>
     </div>
     <script type="text/javascript" src="calc.js"></script>
   </body>
