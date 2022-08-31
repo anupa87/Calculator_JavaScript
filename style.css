@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  padding: 3rem;
+  align-content: center;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: fit-content;
+  max-height: fit-content;
+  background-color: tomato;
+  border-radius: 3px;
+}
+
+h1,
+p,
+form,
+h3 {
+  padding-bottom: 3rem;
+}
+
+form input {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#submit {
+    background-color: yellowgreen;
+}
+
+h3 {
+    background-color: yellowgreen;
+    color: #333;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1rem;
+}
